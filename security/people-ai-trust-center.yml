@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://www.backstory.ai/platform/trust-security
+url: https://www.backstory.ai/platform/trust-security
+certifications:
+- SOC 2
+- ISO 27001
+- ISO 27017
+- CSA STAR
+compliance:
+- GDPR
+- CCPA
+evidence:
+- source: https://www.backstory.ai/platform/trust-security
+  keywords: [soc 2, iso 27001, iso 27017, csa star, gdpr, ccpa, trust, security]
+notes: >-
+  Trust & Security page for People.ai (Backstory). Named certifications and
+  privacy frameworks were harvested verbatim from the published trust page. No
+  bug-bounty program or /.well-known/security.txt was found (all /.well-known/*
+  probes returned 404).

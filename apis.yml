@@ -1,8 +1,18 @@
 aid: people-ai
 name: People Ai
-description: People Ai is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  People.ai is an AI-powered revenue intelligence platform for sales leaders,
+  RevOps, and CROs, now operating under the Backstory brand (people.ai redirects
+  to backstory.ai). The platform automatically captures customer-facing activity
+  (emails, meetings, calls, chats) from existing tools such as Salesforce,
+  Microsoft Dynamics, Gmail, Outlook, Zoom, Teams, and Slack, then analyzes that
+  activity against deal history to answer which deals are real, which are at risk,
+  and what to do next. Core capabilities include deal-risk identification,
+  pipeline visibility and touchpoint mapping, revenue forecasting validation, and
+  automated CRM hygiene. People.ai is a portfolio company of Lightspeed Venture
+  Partners. As of this enrichment pass the company exposes no public developer
+  portal, API reference, or OpenAPI surface; integrations are delivered as managed
+  native connectors rather than a documented public API.
 url: https://raw.githubusercontent.com/api-evangelist/people-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,58 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand: Backstory (backstory.ai)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.backstory.ai/favicon.ico
 tags:
 - Company
+- Revenue Intelligence
+- Sales
+- Artificial Intelligence
+- CRM
+- Pipeline
+- Forecasting
+- RevOps
 apis: []
+common:
+- type: Website
+  url: https://www.backstory.ai
+- type: Blog
+  url: https://www.backstory.ai/blog
+- type: Support
+  url: https://help.backstory.ai
+- type: Login
+  url: http://app.people.ai/login/
+- type: TermsOfService
+  url: https://www.backstory.ai/terms-v3
+- type: PrivacyPolicy
+  url: https://www.backstory.ai/privacy
+- type: TrustCenter
+  url: https://www.backstory.ai/platform/trust-security
+- type: Compliance
+  url: https://www.backstory.ai/platform/trust-security
+- type: DomainSecurity
+  url: security/people-ai-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
